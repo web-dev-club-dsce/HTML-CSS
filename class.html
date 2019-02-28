@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <div class="cities">
+        <h2>Bengaluru</h2>
+        <p>Bengaluru is the Silicon Valley of India.</p>
+    </div>
+
+    <div class="cities">
+        <h2>Delhi</h2>
+        <p>Delhi is the Capital of India.</p>
+    </div>
+
+    <div class="cities">
+        <h2>Chennai</h2>
+        <p>Chennai is the capital city of Tamilnadu.</p>
+    </div>
+
+    <div id="specialOne">
+        <h2>Mumbai</h2>
+        <p>MUmbai is also Bombay..</p>
+    </div>
+    <br /><br />
+
+
+
+
+    <button onclick="myFunction()">Hide elements</button>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("cities");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+<!--Same folder-->
+<img src="image.png" alt="">
+<!-- root folder-->
+<img src="/image.png" alt="">
+<!--images folder-->
+<img src="images/image.png" alt="">
+<!--one level up-->
+<img src="../images/image.png" alt="">
+
+<p style="margin-bottom: 500px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="color:darkviolet">id,
+        adipisci libero sit
+        ipsum temporibus eligendi aliquam porro quasi nisi voluptatum quia laborum fuga debitis</span> repellat magni
+    iusto molestiae similique.</p>

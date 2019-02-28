@@ -1,0 +1,15 @@
+.cities {
+    background-color: black;
+    color: white;
+    /*for the font*/
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#specialOne {
+    background-color: dodgerblue;
+    color: white;
+    /*for the font*/
+    margin: 20px;
+    padding: 20px;
+}
